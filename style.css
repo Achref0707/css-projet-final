@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui;
+}
+body{
+   display: flex;
+   justify-content: baseline;
+   flex-direction:row;
+}
+.about-me{
+    background-color: rgba(0, 0, 0, 0.264);
+    width: 100%;
+    height:max-content;
+}
+.about-me>img{
+    width: 250px;
+    border-radius: 50%;
+    margin: 10% 25%;
+}
+.about-me>h1{
+    text-align: center;
+    margin-left: 4%;
+    border-bottom: 2px solid black;
+    width: 80%;
+    font-size: 50px;
+}
+.about-me>p{
+    text-align: center;
+    margin-left: -11%;
+    font-size: 20px;
+}
+.contact{padding-top: 150px ;}
+.contact>h2{
+    text-align: center;
+    margin-left: 4%;
+    border-bottom: 2px solid black;
+    width: 80%;
+    font-size: 25px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.contact>span{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15%;
+}
+span>p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.profil>h2{
+    text-align: center;
+    margin-left: 4%;
+    border-bottom: 2px solid black;
+    width: 80%;
+    font-size: 25px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.profil>p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.media{
+    display: flex;
+    flex-direction:column;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.media>p{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15%;
+}
+.cv{ 
+    margin: 5% 5%;
+    display: flex;
+    flex-direction:column;
+    align-items:baseline;
+}
+.work>h1{
+    color: rgba(0, 0, 0, 0.211);
+    font-size: 50px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.211);
+    margin-bottom: 5%;
+}
+.work>p{
+    margin: 5% 5%;
+}
+.languag>h1{
+    color: rgba(0, 0, 0, 0.211);
+    font-size: 50px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.211);
+    margin-bottom: 5%;
+}
